@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--bootastrap--->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <nav>
+
+        <span> ECOURSES</span>
+
+        <ul>
+            <li><a href="">Subjects</a></li>
+            <li><a href="">Home </a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Teachers</a></li>
+            <li><a href="">Blog</a></li>
+            <button style="padding: 6px 15px; color: orange;"> Join now</button>
+        </ul>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <br>
+    <div class="topbar mt-5">
+        <div class="container-fluid">
+            <div class="row d-flex  align-item-center justify-content-between ">
+                <div class="bg-light ">
+                    <div class="d-flex">
+                        <div class="logo col-md-3">
+                            <h1 class="text-dark"> <span style="font-size: 39px; color: orange;"> E</span>COURSES</h1>
+                        </div>
+                        <div class="location col-md-3">
+                            <i class="fa-solid fa-location-dot d-flex" style="color: orange;">
+                                <h6>Our offfice</h6>
+                            </i>
+                            <p class="text-secondary">123,New york,USA</p>
+                        </div>
+                        <div class="mail col-md-3">
+                            <i class="fa-solid fa-envelope d-flex " style="color: orange;">
+                                <h6>Email</h6>
+                            </i>
+                            <p class="text-secondary">abc@gamil.com</p>
+                        </div>
+                        <div class="call col-md-3">
+                            <i class="fa-solid fa-phone d-flex" style="color: orange;">
+                                <h6>Call Us</h6>
+                            </i>
+                            <p class="text-secondary">+9123456780</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!--caro-->
+        <div class="slider">
+            <div class="slider-item active">
+                <img src="img/carousel-1.jpg" alt="Slider-1">
+            </div>
+            <div class="slider-item">
+                <img src="img/carousel-2.jpg" alt="Slider-2">
+            </div>
+            <div class="slider-item">
+                <img src="img/carousel-3.jpg" alt="Slider-3">
+            </div>
+
+            <div class="slider-btns">
+                <button id="btn-prev" onclick="PrevSlide()">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button id="btn-next" onclick="NextSlide()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+        </div>
+        <!--caro-->
+        <div id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6  img-con">
+                        <img src="img/about.jpg" alt="" width="55% " style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-6 abt-content">
+                        <h6 style="color: orange;letter-spacing: 5px;">ABOUT US</h6>
+                        <h1>Innovative Way To Learn</h1>
+                        <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua
+                            duo
+                            dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam
+                            sanctus
+                            gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit
+                            dolor
+                            clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea
+                            labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr
+                            dolores
+                            justo aliquyam ipsum stet</p>
+                        <button class="btn" style="background-color: orange;">Learn More</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="sub">
+                <div class="title">
+                    <h6 style="color: orange;letter-spacing: 5px;">SUBJECT</h6>
+                    <h1>Eplore Top Subjects</h1>
+                </div>
+                <div class="row">
+                    <div class="sub1 mt-2">
+                        <div class="out ">
+                            <img src="img/cat-1.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+
+                    </div>
+                    <div class="sub1 mt-2">
+                        <div class="out">
+
+                            <img src="img/cat-2.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+                    <div class="sub1 mt-2">
+                        <div class="out">
+                            <img src="img/cat-3.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+                    <div class="sub1 mt-2">
+                        <div class="out">
+
+                            <img src="img/cat-4.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="sub1 mt-2">
+                        <div class="out">
+
+                            <img src="img/cat-5.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+                    <div class="sub1 mt-2">
+                        <div class="out">
+
+                            <img src="img/cat-6.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+                    <div class="sub1 mt-2">
+                        <div class="out">
+
+                            <img src="img/cat-7.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+                    <div class="sub1 mt-2">
+                        <div class="out">
+
+                            <img src="img/cat-8.jpg" alt="" width="100%">
+                            <h4>Marketing</h4>
+                            <p>100+course</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="course">
+                <div class="title">
+                    <h6 style="color: orange;letter-spacing: 5px;">COURSES</h6>
+                    <h1>Our Popular Courses</h1>
+                </div>
+                <div class="row">
+                    <div class="box  mt-3">
+                        <img src="img/course-1.jpg" class="img" onclick="myfun()" ondblclick="my()" alt="" width="100%">
+                        <div class="given" id="given">
+                            <div class="icon mt-3">
+                                <i class="fa-solid fa-users" style="font-size: 10px;color: orange;">
+                                    25 Students
+                                </i>
+                                <i class="fa-solid fa-clock" style="font-size: 10px;color: orange;">
+                                    01 hour 30m
+                                </i>
+                            </div>
+                            <div class="car-text mt-3">
+                                <h5>Web Design & Development <br> Courses for Beginner</h5>
+                                <hr>
+                                <div class="doller">
+                                    <p><i class="fa-solid fa-star fs-5"
+                                            style="font-size: 10px;color: orange;"></i>4.5(250)</p>
+                                    <p>$99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box  mt-3">
+                        <img src="img/course-2.jpg" alt="" width="100%" onclick="coursee()" ondblclick="course()">
+                        <div class="given" id="given1">
+                            <div class="icon mt-3">
+                                <i class="fa-solid fa-users" style="font-size: 10px;color: orange;">
+                                    25 Students
+                                </i>
+                                <i class="fa-solid fa-clock" style="font-size: 10px;color: orange;">
+                                    01 hour 30m
+                                </i>
+                            </div>
+                            <div class="car-text mt-3">
+                                <h5>Web Design & Development <br> Courses for Beginner</h5>
+                                <hr>
+                                <div class="doller">
+                                    <p><i class="fa-solid fa-star fs-5"
+                                            style="font-size: 10px;color: orange;"></i>4.5(250)</p>
+                                    <p>$99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box  mt-3">
+                        <img src="img/course-3.jpg" onclick="cour()" ondblclick="courr()" alt="" width="100%">
+                        <div class="given" id="given2">
+                            <div class="icon mt-3">
+                                <i class="fa-solid fa-users" style="font-size: 10px;color: orange;">
+                                    25 Students
+                                </i>
+                                <i class="fa-solid fa-clock" style="font-size: 10px;color: orange;">
+                                    01 hour 30m
+                                </i>
+                            </div>
+                            <div class="car-text mt-3">
+                                <h5>Web Design & Development <br> Courses for Beginner</h5>
+                                <hr>
+                                <div class="doller">
+                                    <p><i class="fa-solid fa-star fs-5"
+                                            style="font-size: 10px;color: orange;"></i>4.5(250)</p>
+                                    <p>$99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="box  mt-3">
+                        <img src="img/course-4.jpg" class="img" onclick="co()" ondblclick="coo()" alt="" width="100%">
+                        <div class="given" id="given3">
+                            <div class="icon mt-3">
+                                <i class="fa-solid fa-users" style="font-size: 10px;color: orange;">
+                                    25 Students
+                                </i>
+                                <i class="fa-solid fa-clock" style="font-size: 10px;color: orange;">
+                                    01 hour 30m
+                                </i>
+                            </div>
+                            <div class="car-text mt-3">
+                                <h5>Web Design & Development <br> Courses for Beginner</h5>
+                                <hr>
+                                <div class="doller">
+                                    <p><i class="fa-solid fa-star fs-5"
+                                            style="font-size: 10px;color: orange;"></i>4.5(250)</p>
+                                    <p>$99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box  mt-3">
+                        <img src="img/course-5.jpg" alt="" width="100%" onclick="cou()" ondblclick="couu()">
+                        <div class="given" id="given4">
+                            <div class="icon mt-3">
+                                <i class="fa-solid fa-users" style="font-size: 10px;color: orange;">
+                                    25 Students
+                                </i>
+                                <i class="fa-solid fa-clock" style="font-size: 10px;color: orange;">
+                                    01 hour 30m
+                                </i>
+                            </div>
+                            <div class="car-text mt-3">
+                                <h5>Web Design & Development <br> Courses for Beginner</h5>
+                                <hr>
+                                <div class="doller">
+                                    <p><i class="fa-solid fa-star fs-5"
+                                            style="font-size: 10px;color: orange;"></i>4.5(250)</p>
+                                    <p>$99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box  mt-3">
+                        <img src="img/course-6.jpg" onclick="cours()" ondblclick="courss()" alt="" width="100%">
+                        <div class="given" id="given5">
+                            <div class="icon mt-3">
+                                <i class="fa-solid fa-users" style="font-size: 10px;color: orange;">
+                                    25 Students
+                                </i>
+                                <i class="fa-solid fa-clock" style="font-size: 10px;color: orange;">
+                                    01 hour 30m
+                                </i>
+                            </div>
+                            <div class="car-text mt-3">
+                                <h5>Web Design & Development <br> Courses for Beginner</h5>
+                                <hr>
+                                <div class="doller">
+                                    <p><i class="fa-solid fa-star fs-5"
+                                            style="font-size: 10px;color: orange;"></i>4.5(250)</p>
+                                    <p>$99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="forme">
+                <div class="line">
+                    <div class="new">
+                        <p style="letter-spacing: 5px;color: orange;">NEED ANY COURSES </p>
+                        <h2 class="text-white">30% Off For New Students
+                        </h2>
+                        <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, <br> justo dolor
+                            lorem ipsum ut sed eos,
+                            ipsum et dolor kasd sit ea justo. <br> Erat justo sed sed diam. Ea et erat ut sed diam sea
+                            ipsum
+                            est dolor</p>
+                        <i class="fa-solid fa-check d-flex" style="color: orange;">
+                            <p class="text-white ms-1">Labore eos amet dolor amet diam</p>
+                        </i>
+                        <i class="fa-solid fa-check d-flex" style="color: orange;">
+                            <p class="text-white ms-1">Labore eos amet dolor amet diam</p>
+                        </i>
+                        <i class="fa-solid fa-check d-flex" style="color: orange;">
+                            <p class="text-white ms-1">Labore eos amet dolor amet diam</p>
+                        </i>
+
+                    </div>
+                    <div class="contain ">
+                        <div class="log">
+                            <h3><b>Sing Up Now</b></h3>
+                        </div>
+                        <form action="fo.html" class="form" id="form" method="post" name="myform">
+                            <div class="form-control">
+                                <label for="">User name</label>
+                                <input type="text" placeholder="Agalya" id="username">
+                                <i class="fa-solid fa-check"></i>
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="form-control">
+                                <label for="">Email</label>
+                                <input type="text" placeholder="abc@gmail.com" id="mail">
+                                <i class="fa-solid fa-check"></i>
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <small>Error Message</small>
+                            </div>
+                            <div class="form-control">
+                                <label for="country">Select a Course</label>
+                                <select name="country" id="country">
+                                    <option value="-1" selected>Select a Course</option>
+                                    <option value="Web Design">Web Design</option>
+                                    <option value="App Design">App Design</option>
+                                    <option value="Marketing">Marketing</option>
+                                </select>
+                                <small>Error input</small>
+                            </div>
+                            <button>Sing up Now</button>
+                        </form>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <section id="teachers">
+            <div class="container-fluid">
+                <div class="title">
+                    <h6 style="color: orange;letter-spacing: 5px;">TEACHERS</h6>
+                    <h1>Meet Our Teachers</h1>
+                </div>
+
+                <div class="row">
+                    <div class="tea">
+                        <img src="img/team-1.jpg" alt="" width="100%">
+                        <div class="tea-con">
+                            <h6>John Deo</h6>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="tea">
+                        <img src="img/team-2.jpg" alt="" width="100%">
+                        <div class="tea-con">
+                            <h6>John Deo</h6>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="tea">
+                        <img src="img/team-3.jpg" alt="" width="100%">
+                        <div class="tea-con">
+                            <h6>John Deo</h6>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="tea">
+                        <img src="img/team-4.jpg" alt="" width="100%">
+                        <div class="tea-con">
+                            <h6>John Deo</h6>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="container-fluid">
+                <div class="blog">
+                    <div class="title">
+                        <h6 style="color: orange;letter-spacing: 5px;">BLOG</h6>
+                        <h1>Latest From Our Blog</h1>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-md-6 " style="position: relative; ">
+                        <video src="img/pexels-pavel-danilyuk-8639267.mp4" type="video/mp4" width="100%"
+                            id="myvideo"></video>
+                        <button id="yes"><i class="fa-solid fa-pause"></i></button>
+                    </div>
+                    <div class="col-md-6 abt-content mt-3 ">
+
+                        <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua
+                            duo
+                            dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam
+                            sanctus
+                            gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit
+                            dolor
+                            clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea
+                            labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr
+                            dolores
+                            justo aliquyam ipsum stet
+                            Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua
+                            duo
+                            dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam
+                            sanctus
+                            gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit
+                            dolor
+                            clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea
+                            labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr
+                            dolores
+                            justo aliquyam ipsum stet
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div class="container-fluid">
+            <div class="row" style="background-color: rgba(6, 6, 179, 0.295);">
+                <div class="col-md-4">
+                    <h6 style="color: red;letter-spacing: 5px;">GET IN TOUCH</h6>
+                  <p class="d-flex"> <i class="fa-solid fa-location-dot d-flex fs-4" style="color: orange;"></i>123New York Street,USA</p>
+                  <p class="d-flex"> <i class="fa-solid fa-envelope d-flex fs-4" style="color: orange;"></i>abc@gmail.com</p>
+                  <p class="d-flex"> <i class="fa-solid fa-phone d-flex fs-4" style="color: orange;"></i>+912345 67890</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h6 style="color: red;letter-spacing: 5px;">OUR COURSES</h6>
+                    <div class="d-flex flex-column justify-content-start" >
+                        <a class="text-white mb-2" href="#" style="text-decoration: none;"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
+                        <a class="text-white mb-2" href="#" style="text-decoration: none;"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
+                        <a class="text-white mb-2" href="#" style="text-decoration: none;"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
+                        <a class="text-white mb-2" href="#" style="text-decoration: none;"><i class="fa fa-angle-right mr-2"></i>Research</a>
+                        <a class="text-white" href="#" style="text-decoration: none;"><i class="fa fa-angle-right mr-2"></i>SEO</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-5">
+                    <h5 class=" text-uppercase mb-4" style="color: red;letter-spacing: 5px;">Newsletter</h5>
+                    <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
+                    <div class="w-100">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-light" style="padding: 9px;" placeholder="Your Email Address">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4 py-2">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
